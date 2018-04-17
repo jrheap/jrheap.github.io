@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    height: 100px;
+    width: 100%;
+    background-color: aqua;
+} 
+
+#link {
+    position: relative;
+    right: -900px;
+
+}
+
+.container {
+    
+}
+
+.wrapper {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding:0;
+    height: 500px;
+    background-color: tomato;
+}
+
+h1 {
+    background-color: gray;
+    height: 80px;
+    padding: 20px;
+    font-size: 35px;
+}
+
+.jason {
+    background-color: cadetblue;
+    text-align: center;
+    color: white;
+    width: 15%;
+    left: 20%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+p {
+    background-color: slateblue;
+    height: 100px;
+    font-size: 33px;
+    
+}
+
+#image {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    
+
+}

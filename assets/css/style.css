@@ -139,3 +139,67 @@ nav a:first-child {
      border-left: 0 none;
 
 }
+
+/* Portfolio */
+
+#picture {
+    width: 274px;
+    overflow: auto;
+    position: relative;
+    float: left;
+    margin: 20px 0 25px;
+}
+
+#picture:nth-child(even) {
+    margin-right: 40px;
+}
+
+/* contact */
+
+#name ul {
+    margin-bottom: 20pxl;
+    border: none;
+
+}
+
+#email ul {
+    margin-bottom: 10px;
+    border: none;
+}
+
+label,
+input[type=text],
+input[type=email],
+textarea {
+    display: block;
+    margin: 20px;
+}
+
+label,
+input[type=text]
+input[type=text]
+textarea{
+    height: 35px;
+    /* border: 1px solid #ddd; */
+    padding: 0 10px;
+    font-size: 16px;
+    
+}
+
+textarea {
+    height: 200px;
+    width: 920px;
+}
+
+input[type=submit] {
+    background: #4aaaa5;
+    border: 0 none;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 30;
+}
+
+input[type=text] {
+    width: 920px;
+
+}

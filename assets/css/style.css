@@ -24,9 +24,18 @@ section.wrapper {
     padding-top: 30px;
     clear: both;
     border: 1px solid #dddddd;
+    height: 100%;   
+}
+
+section.portfolio {
+    background-color:#ffffff;
+    max-width: 960px;
+    width: 100%;
+    padding-top: 30px;
+    clear: both;
+    border: 1px solid #dddddd;
     height: 870px;
-   
-    
+
 }
 
 #container1 {
@@ -247,7 +256,7 @@ input[type=submit] {
     border: 0 none;
     color: #fff;
     font-size: 18px;
-    padding: 10px ;
+    margin: 10px 10px 10px 10px ;
 }
 
 input[type=text] {
